@@ -13,7 +13,7 @@ def parse(emails)
   @emails = emails
   parser = EmailParser.new
   
-  parser.parse
+  parser.parse(emails)
   
 end
 
