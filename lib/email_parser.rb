@@ -10,13 +10,10 @@ attr_accessor :emails, :parse
 
 def initialize(parse)
   
-  @parse = parse
   @emails = emails
   parser = EmailParser.new(emails)
   
-end
-
-def parse
+  parser.parse
   
 end
 
