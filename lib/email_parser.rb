@@ -13,8 +13,6 @@ def initialize(emails)
   @emails = emails
   parser = EmailParser.new(emails)
   
-  parser.parse
-  
 end
 
 end
