@@ -16,4 +16,8 @@ def initialize(parse)
   
 end
 
+def parse
+  
+end
+
 end
