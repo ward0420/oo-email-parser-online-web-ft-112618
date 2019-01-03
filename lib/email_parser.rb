@@ -6,9 +6,9 @@
 
 class EmailParser
   
-attr_accessor :EmailParser
+attr_accessor :parse
 
-def parse
+def initialize(parse)
   
   emails = ""
   parser = EmailParser.new
