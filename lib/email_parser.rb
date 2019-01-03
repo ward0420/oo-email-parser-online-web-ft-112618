@@ -6,11 +6,11 @@
 
 class EmailParser
   
-attr_accessor :parse
+attr_accessor :emails_string
 
-def initialize(parse)
+def initialize(emails_string)
   
-  emails = ""
+  @emails_string = emails_string
   parser = EmailParser.new
   
 end
